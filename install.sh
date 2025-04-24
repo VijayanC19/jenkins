@@ -15,4 +15,10 @@ sudo apt-get update
 
 sudo apt-get install  -y jenkins
 
-sudo systemctl restart jenkins
+sudo systemctl restart jenkins 
+
+sudo apt install docker.io
+
+sudo chmod 777 /var/run/docker.sock
+
+sudo apt install maven
