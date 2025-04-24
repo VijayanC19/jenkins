@@ -22,3 +22,7 @@ sudo apt install docker.io
 sudo chmod 777 /var/run/docker.sock
 
 sudo apt install maven
+
+
+sudo cat /var/lib/jenkins/secrets/initialAdminPassword
+password will come....
